@@ -23,7 +23,7 @@ class My_Functions < MiniTest::Test
     assert_equal( 15, result )
   end
 
-  # def test_sum_array__negative_value
+  def test_sum_array__negative_value
     result = sum_array( [ 1,2,3,4,5,-10 ] )
     assert_equal( 5, result )
   end
