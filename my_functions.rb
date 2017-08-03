@@ -49,7 +49,7 @@ def find_item(array, item)
   for houses in array do
     if houses == item
       return true
-    end
+    endls
   end
   return false
 end
